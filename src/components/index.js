@@ -1,0 +1,7 @@
+export {default as Home} from './home/index.jsx'
+export {default as About} from './about/index.jsx'
+export {default as Resume} from './resume/index.jsx'
+export {default as Skill} from './skills/index.jsx'
+export {default as Project} from './projects/index.jsx'
+export {default as Contact} from './contact/index.jsx'
+export {default as Navbar} from './navBar/index.jsx'
