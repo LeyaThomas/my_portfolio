@@ -1,0 +1,41 @@
+.skills{
+        &__language, &__web,&__design,&__version{
+            line-height: -50px;
+            margin-left: 20px;
+            margin-top: 10px;
+            
+
+            h3{
+               margin-bottom: 20px;
+                font-size: 2.5rem;
+                font-weight: 700;
+                color: var(--yellow-theme-main-color);
+            }
+            &__icons,&__web__icons,&__design__icons,&__version__icons{
+                display: flex;
+                gap: 30px;
+                margin-bottom: 40px;
+                font-size: 2.5rem;
+                
+                h4{
+                  
+                    text-align: center;
+                }
+                
+
+            }
+        }
+}
+
+.icon-box1,.icon-box2,.icon-box3,.icon-box4,.icon-box5,.icon-box6,.icon-box7,.icon-box8,.icon-box9,.icon-box10,.icon-box11{
+    border: 2px solid var(--yellow-theme-main-color);
+    border-radius: 10%;
+    width: 130px;
+    background-color: var(--yellow-theme-main-color);
+    text-align: center;
+    align-items: center;
+}
+
+.icon-text1,.icon-text2,.icon-text3,.icon-text4,.icon-text5,.icon-text6,.icon-text7,.icon-text8,.icon-text9,.icon-text10,.icon-text11{
+    padding: 10px;
+}
