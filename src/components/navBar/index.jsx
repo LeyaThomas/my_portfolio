@@ -18,10 +18,10 @@ const data = [
         label : "SKILLS",
         to : '/skill'
     },
-    {
-        label : "RESUME",
-        to : '/resume'
-    },
+    // {
+    //     label : "RESUME",
+    //     to : '/resume'
+    // },
     {
         label : "PROJECTS",
         to : '/project'
