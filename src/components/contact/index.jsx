@@ -13,7 +13,7 @@ const Contact = () => {
             <div className="contact__content">
                 <h3 className="contact__content__header-text">Let's Talk</h3>
                 <form
-                    action="https://formspree.io/f/xqazjaaj" // Replace with your Formspree form ID
+                    action="https://formspree.io/f/xqazjaaj" 
                     method="POST"
                     className="contact__content__form"
                 >
