@@ -15,18 +15,18 @@ const projectsData = [
         image: img1,
         link: 'https://github.com/LeyaThomas/pma'
     },
-    {
-        id: 2,
-        name: "Web Bootcamp projects",
-        image: img2,
-        link: 'https://github.com/LeyaThomas/Web_Development_Tasks'
-    },
-    {
-        id: 3,
-        name: "Mozilla Splash",
-        image: img3,
-        link: 'https://github.com/LeyaThomas/mozillasplash'
-    },
+    // {
+    //     id: 2,
+    //     name: "Web Bootcamp projects",
+    //     image: img2,
+    //     link: 'https://github.com/LeyaThomas/Web_Development_Tasks'
+    // },
+    // {
+    //     id: 3,
+    //     name: "Mozilla Splash",
+    //     image: img3,
+    //     link: 'https://github.com/LeyaThomas/mozillasplash'
+    // },
     // {
     //     id: 4,
     //     name: "TypeScript",
