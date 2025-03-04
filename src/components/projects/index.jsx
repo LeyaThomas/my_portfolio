@@ -27,28 +27,23 @@ const projectsData =[
         image: img3,
         link : 'https://github.com/LeyaThomas/mozillasplash'
     },
-    {
-        id:4,
-        name: "TypeScript",
-        image: img4,
-        link : 'https://github.com/LeyaThomas/TS_studyjam_tasks'
-    }
+   
 ]
 
- const filterData = [
-    {
-        filterId : 1,
-        label : "All"
-    },
-    {
-        filterId : 2,
-        label : "Development"
-    },
-    {
-        filterId : 3,
-        label : "Design"
-    }
-]
+//  const filterData = [
+//     {
+//         filterId : 1,
+//         label : "All"
+//     },
+//     {
+//         filterId : 2,
+//         label : "Development"
+//     },
+//     {
+//         filterId : 3,
+//         label : "Design"
+//     }
+// ]
 
 const Project = () => {
 
@@ -101,16 +96,16 @@ const Project = () => {
                                 </a>
                                </div>
                                <div className="overlay">
-                                 {
-                                   index === hoveredValue && (
-                                   <div>
-                                   <p>{item.name}</p>
-                                   <button>Visit</button>
-                                   </div>
-                                   )
-                                 }
-                               
-                               </div>
+                                  {index === hoveredValue && (
+                               <div>
+                                  <p>{item.name}</p>
+                                  <a href={item.link} target="_blank" rel="noopener noreferrer">
+                                  <button>Visit</button>
+                                  </a>
+                                </div>
+                                )}
+                              </div>
+
                             </div>
                         ))
                     }
