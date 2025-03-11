@@ -15,10 +15,10 @@ const projectsData = [
         image: img1,
         link: 'https://github.com/LeyaThomas/pma'
     },
-     {
-        id: 2,
-        name: "Blog Website",
-        image: img2,
+    {
+         id: 2,
+         name: "Blog Website",
+         image: img2,
         link: 'https://github.com/LeyaThomas/guarded_words.git'
      },
     // {

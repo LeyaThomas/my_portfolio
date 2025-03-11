@@ -20,7 +20,7 @@ const About = () => {
             />
             <div className="about__content">
                 <div className="about__content__personalWrapper">
-                    <h3>FrontEnd Developer</h3>
+                    <h3>Full Stack Developer</h3>
                     <p dangerouslySetInnerHTML={{ __html: jobSummary }}></p>
                     <Animate
                         play

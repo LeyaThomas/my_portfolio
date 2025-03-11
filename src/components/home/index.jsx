@@ -14,7 +14,7 @@ const Home = () => {
                 <h1>
                     Hello, I'm Leya Thomas
                     <br/>
-                    Front end Developer
+                    Full Stack Developer
                 </h1>
 
             </div>
